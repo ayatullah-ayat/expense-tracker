@@ -1,0 +1,13 @@
+.expense-filter__control {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.expense-filter__control label {
+    font-weight: 800;
+    font-size: larger;
+}
+.expense-filter__control select {
+    padding: 5px 25px;
+    border-radius: 5%;
+}

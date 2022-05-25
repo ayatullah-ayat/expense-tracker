@@ -1,0 +1,15 @@
+.expenses {
+  padding: 1rem;
+  background-color: rgb(31, 31, 31);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+}
+
+
+.expense__item-fail {
+  text-align: center;
+  color: wheat;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
