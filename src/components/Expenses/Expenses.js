@@ -27,14 +27,17 @@ const Expenses = (props) => {
     />)
   }
 
+
   return (
     <Card className="expenses">
       <ExpenseFilter selected = { filterYear } 
           onChangeFilter = { filterChangeHandler }
       />
 
-
-      <ExpenseChart expenses = { filterExpenses }/>
+      { 
+        filterExpenses.length > 0 ? <ExpenseChart expenses = { filterExpenses }/> : ''  
+      }
+      
 
 
       {
