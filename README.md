@@ -1,6 +1,6 @@
 ## Expense Tracker
 
-Expense List, Add New Expense, Filter Expense by year, ExpeneChart
+Expense List, Add New Expense, Filter Expenses by Year, ExpenseChart
 
 
 ### To run:
